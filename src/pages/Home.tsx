@@ -64,9 +64,9 @@ const Home = () => {
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque
-            nam saepe vero voluptatem vel fuga a eaque earum alias ipsam
-            aspernatur culpa maxime laboriosam, impedit quae officiis
-            consectetur
+            nam saepe vero voluptatem vel fuga. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Illo itaque nam saepe vero voluptatem
+            vel fuga
           </p>
           <a href={"contact.html"} className={"btn"}>
             Get Started

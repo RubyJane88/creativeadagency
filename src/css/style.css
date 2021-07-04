@@ -28,9 +28,17 @@ p {
 
 section {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   align-items: center;
   padding: 100px;
+  margin-top: 60px;
+}
+
+/*!*this is for the Home page*!*/
+section.home {
+  flex-direction: row;
+  margin-top: 0;
 }
 
 .btn {
@@ -173,4 +181,105 @@ section {
   bottom: 0;
   right: 0;
   height: 110%;
+}
+
+/*SERVICES PAGE*/
+.services {
+  margin-top: 40px;
+  display: grid; /* each service will be under grid */
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /*divide the screen into 3 even columns */
+  gap: 40px;
+  text-align: center;
+}
+
+/*styling of each service item */
+.services .service {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.services .service:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.services .service h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #1b206e;
+}
+
+/*to make the icons smaller. alternative is to use font Awesome icons  */
+.services .service .icon img {
+  max-width: 100px;
+}
+
+/*WORK PAGE */
+
+/*applies to anything under that max-width */
+@media (max-width: 478px) {
+  .home-img {
+    display: none;
+  }
+
+  .home {
+    display: inline-block;
+    height: fit-content;
+  }
+
+  .logo {
+    top: 10px;
+    left: 20px;
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 80px 30px;
+  }
+
+  .navigation-inactive ul li a,
+  .navigation-active ul li a {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .btn {
+    padding: 5px 20px;
+    border-radius: 10px 0;
+    margin: 15px 0;
+    border: 0;
+  }
+
+  .toggle-active .toggle-inactive {
+    height: 30px;
+    width: 30px;
+    background-size: 20px;
+  }
+
+  .navigation-active .navigation-inactive {
+    left: 80%;
+    width: 80%;
+    height: 80%;
+  }
+
+  /*for the services page - make the columns from 3 to 1 */
+  .services {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /*divide the screen into 2 even columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    grid-template-columns: 1fr;
+  }
 }

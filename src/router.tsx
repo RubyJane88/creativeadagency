@@ -10,6 +10,7 @@ const Router = () => {
   return (
     <div>
       <Switch>
+        {<Route exact path={"/Home"} component={Home} />}
         {<Route exact path={"/"} component={Home} />}
         {<Route exact path={"/Services"} component={Services} />}
         {<Route exact path={"/Work"} component={Work} />}
