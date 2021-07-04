@@ -1,13 +1,14 @@
 import React from "react";
 
 const Toggle = () => {
-  const toggle = document.querySelector(".toggle");
+  const toggled = document.querySelector(".toggle");
   const navigation = document.querySelector(".navigation");
 
-  toggle?.addEventListener("click", () => {
-    toggle.classList.toggle("active");
+  toggled?.addEventListener("click", () => {
+    // console.log("event listeners");
+    toggled?.classList.toggle("active");
+    navigation?.classList.toggle("active");
   });
-
   return <div></div>;
 };
 

@@ -3,15 +3,6 @@ import React, { useState } from "react";
 const Home = () => {
   const [isToggled, setToggled] = useState(false);
 
-  // const toggled = document.querySelector(".toggle");
-  // const navigation = document.querySelector(".navigation");
-  //
-  // toggled?.addEventListener("click", () => {
-  //   // console.log("eventlisteners");
-  //   toggled.classList.toggle("active");
-  //   navigation?.classList.toggle("active");
-  // });
-
   return (
     <>
       <header>
