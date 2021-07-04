@@ -1,5 +1,7 @@
 import React from "react";
 
+//alternative way
+
 const Toggle = () => {
   const toggled = document.querySelector(".toggle");
   // const navigation = document.querySelector(".navigation");

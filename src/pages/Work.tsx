@@ -58,7 +58,7 @@ const Work = () => {
 
       <section>
         <div className={"title"}>
-          <h1>Some of our fines work</h1>
+          <h1>Some of our finest work</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
             iusto molestias accusamus rem nobis est, et laborum harum doloremque
@@ -73,122 +73,104 @@ const Work = () => {
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
 
-        <div className="portfolio">
           <div className="item">
             <img src={"images/portfolio-item2.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
 
-        <div className="portfolio">
           <div className="item">
             <img src={"images/portfolio-item3.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item4.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item5.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item6.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item7.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item8.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item9.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item10.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
           <div className="item">
             <img src={"images/portfolio-item11.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item12.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item13.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item14.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item15.jpg"} alt={"portfolio"} />
             <div className="action">
               <a href={"http//:"}>Launch </a>
             </div>
           </div>
-        </div>
-        <div className="portfolio">
+
           <div className="item">
             <img src={"images/portfolio-item16.jpg"} alt={"portfolio"} />
             <div className="action">
